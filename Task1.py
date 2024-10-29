@@ -14,10 +14,4 @@ for value in costumer_id:
   if value not in new_list:
     new_list.append(value)
 
-
-count1 = 0
-
-for item in new_list:
-    count1 += 1
-
-print(count1)
+print(len(new_list))
